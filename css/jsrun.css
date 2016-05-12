@@ -1,0 +1,38 @@
+body {
+  overflow: hidden;
+}
+
+.jsrun {
+  margin: 0;
+  padding: 0;
+}
+
+.jsrun.wrapper {
+  height: 100vh;
+  width: 100vw;
+}
+
+.jsrun.inner-top {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 5px;
+  left: 20px;
+  width: 99vw;
+  height: 10vw;
+}
+
+.jsrun.inner-top > h1 {
+  transform: translateY(-20px);
+}
+
+.jsrun.ace-wrap {
+  width: 98vw;
+  height: 86vh;
+  padding-top: 37px;
+}
+
+.jsrun.ace {
+  width: 100%;
+  height: 100%;
+}
